@@ -1,16 +1,16 @@
 class Platform extends Sprite{
-  
-  constructor(imageArray) {
-    super(imageArray);
+
+  constructor(locationY, locationX, imageArray){
+    super(locationY, locationX, imageArray) 
+    this.x = random(0,width)
   }  
 
   show(){
-  
+
   }
-  
-  
   
   update() {
   
   }  
+
 }
