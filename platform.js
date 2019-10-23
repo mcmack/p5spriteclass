@@ -8,5 +8,9 @@ class Platform extends Sprite{
   show(){
 
   }
+  
+  update() {
+  
+  }  
 
 }
