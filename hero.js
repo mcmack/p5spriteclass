@@ -1,3 +1,12 @@
 class Hero extends Sprite{
-  this.direction = 1;
+  
+  constructor(){
+    super();
+    this.direction = 1;
+  }
+  
+  update(){
+  
+  }
+  
 }
