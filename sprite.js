@@ -3,6 +3,7 @@
 class Sprite{
   constructor(locationY, locationX, imageArray ){
     this.frames = imageArray;
+    this.facing = 1;
     this.currentFrame = 0;
     this.x = locationX;
     this.y = locationY;
