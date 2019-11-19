@@ -4,6 +4,7 @@ class Platform extends Sprite{
     super(locationY, locationX, imageArray) 
     this.x = random(0,width)
     this.height = 100;
+    this.width = 300;
   }  
 
   show(){
