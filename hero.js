@@ -10,4 +10,7 @@ class Hero extends Sprite{
   
   }
   
+  isGrounded() {
+    
+  }
 }
