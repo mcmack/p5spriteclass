@@ -5,6 +5,7 @@ class Platform extends Sprite{
     this.x = random(0,width)
     this.height = 100;
     this.width = 300;
+    
   }  
 
   show(){
@@ -14,5 +15,8 @@ class Platform extends Sprite{
   update() {
   
   }  
+  isTouching() {
+    
+  }
 
 }
