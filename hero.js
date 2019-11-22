@@ -4,10 +4,14 @@ class Hero extends Sprite{
     super();
     this.direction = 1;
     this.state = "standing";
+    
   }
   
-  update(){
+  update() {
   
+  }
+  checkState() {
+    
   }
   
   isGrounded() {
